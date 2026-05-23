@@ -8,7 +8,8 @@ Goal: Validate, de-duplicate, and summarize user events from a JSON file.
 python3 main.py
 ```
 
-Expects `events.json` in the working directory. Outputs `session_summaries.json`.
+Expects `events.json` in the working directory. Logs pipeline steps to terminal 
+and writes final session summaries to `session_summaries.json`.
 
 ## What It Does
 
@@ -18,7 +19,7 @@ Expects `events.json` in the working directory. Outputs `session_summaries.json`
 | 2. De-duplicate | Drops exact duplicate events where all three fields (`user_id`, `event_time`, `event_type`) match |
 | 3. Summarize | Computes per-user `session_start`, `session_end`, and `event_count` from clean events |
 
-## Output Format
+## Output Format (session_summaries.json)
 
 ```json
 [
