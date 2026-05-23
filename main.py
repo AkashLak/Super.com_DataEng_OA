@@ -92,8 +92,6 @@ def main():
   print("-" * 85)
   for s in sessions:
     print(f"{s['user_id']:<10} {s['session_start']:<32} {s['session_end']:<32} {s['event_count']}")
-  #Session_summary.json is just an addition (not shown in coderbyte due to restrictions)
-  #However, the json is shown in private Github repo
   with open("session_summaries.json", "w") as f:
     json.dump(sessions, f, indent = 2)
   print("\nOutput written to session_summaries.json")
