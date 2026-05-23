@@ -1,0 +1,26 @@
+[
+  {
+    "user_id": 10,
+    "session_start": "2024-07-10T12:00:05+00:00",
+    "session_end": "2024-07-11T09:30:00+00:00",
+    "event_count": 7
+  },
+  {
+    "user_id": 11,
+    "session_start": "2024-07-10T12:00:10+00:00",
+    "session_end": "2024-07-11T10:10:00+00:00",
+    "event_count": 7
+  },
+  {
+    "user_id": 12,
+    "session_start": "2024-07-10T11:45:00+00:00",
+    "session_end": "2024-07-11T09:45:00+00:00",
+    "event_count": 7
+  },
+  {
+    "user_id": 13,
+    "session_start": "2024-07-10T11:59:30+00:00",
+    "session_end": "2024-07-11T10:40:00+00:00",
+    "event_count": 8
+  }
+]
