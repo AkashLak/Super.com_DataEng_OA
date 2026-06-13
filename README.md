@@ -1,3 +1,5 @@
+✅ Submission approved by Super.com
+
 # Data Engineer Intern Challenge - Super.com
 
 Goal: Validate, de-duplicate, and summarize user events from a JSON file.
